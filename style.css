@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
 }
 :root {
   --heading-font: "Playfair Display", serif;
@@ -164,8 +165,36 @@ button#check {
   color: orange;
 }
 /* customer-section-end */
+
 /* contact-form-start */
 #floatingInput {
   border-radius: 20px;
 }
+#contact {
+  margin-bottom: 130px;
+}
 /* contact-form-end */
+/* Footer-start */
+footer ul li a {
+  font-weight: bold;
+  color: #404040;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+#footer_top {
+  color: #ebe3cd;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: var(--heading-font);
+  margin-bottom: 25px;
+}
+
+#media ul > p,
+i {
+  font-weight: bold;
+  color: #404040;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+/* Footer-end */
