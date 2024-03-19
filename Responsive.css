@@ -1,0 +1,11 @@
+@media screen and (max-width: 1050px) {
+  #page {
+    margin-top: 0px;
+  }
+  #text {
+    padding: 20px;
+  }
+  #story {
+    padding: 0px 20px;
+  }
+}

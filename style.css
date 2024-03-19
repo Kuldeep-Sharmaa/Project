@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --heading-font: "Playfair Display", serif;
+  --main-font: "Montserrat", sans-serif;
+  --btn-font: "Montserrat" bold;
+  --btn-color: #df581e;
+  --catogery-font-size: 2rem;
+}
+
+body {
+  background-color: #ebe3cd !important;
+  font-family: var(--main-font) !important;
+}
+/* main-page-start */
+.basic-nav .navbar {
+  background-color: #12202f; /* Background color */
+  border-radius: 10px;
+}
+
+.basic-nav .navbar-nav .nav-link {
+  color: white; /* Text color */
+}
+
+.nav-item {
+  padding: 0px 30px;
+}
+#page {
+  margin-top: -50px;
+}
+#text {
+  padding: 60px;
+}
+
+#text h1 {
+  font-family: var(--heading-font);
+  font-weight: 700;
+  font-size: 6rem;
+}
+
+#text h6 {
+  line-height: 1;
+  font-size: 2rem;
+}
+
+button#exp {
+  font-size: 1.3rem;
+  padding: 3px 20px;
+  border-radius: 20px;
+  background-color: var(--btn-color);
+  color: #ffff;
+  border: 1px;
+}
+
+button#green {
+  font-size: 1.3rem;
+  padding: 3px 20px;
+  border-radius: 20px;
+  background-color: #6bb99c;
+  color: #ffff;
+  border: 1px;
+}
+button#menu {
+  font-size: 1.5rem;
+  padding: 3px 20px;
+  border-radius: 20px;
+  border: 0px;
+  background-color: transparent;
+}
+
+.booking {
+  font-weight: 800;
+  padding: 0px 40px;
+  font-size: 1.2rem;
+  margin: 10px 0px;
+}
+
+/* main-page-end */
+
+/* booking-page-start */
+
+#check_table {
+  background-color: #faf8ef;
+  padding: 20px 30px;
+  border-radius: 20px;
+  box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.4);
+  margin-bottom: 130px;
+}
+
+#inputState {
+  background-color: #ebe3cd;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+button#check {
+  font-weight: 600;
+  padding: 20px 50px;
+  border-radius: 20px;
+  color: #ebe3cd;
+  background-color: #6bb99c;
+}
+/* booking-page-end */
+
+/* Food-category-start  */
+
+#food_head {
+  color: #eaab49;
+  font-size: var(--catogery-font-size);
+}
+
+#head {
+  font-family: var(--heading-font);
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+#title {
+  font-size: 2.5rem;
+  font-family: var(--heading-font);
+}
+#items {
+  border-radius: 40px;
+  background-color: #faf8ef;
+}
+#food_items {
+  margin-bottom: 130px;
+}
+/* Food-category-end  */
+
+/* Story-section-start */
+#story {
+  padding: 70px 150px;
+  margin-bottom: 130px;
+}
+#story > img {
+  margin-bottom: 130px;
+}
+/* Story-section-end */
+
+/* chef-section-start */
+#chef {
+  background-color: #faf8ef;
+  padding: 60px;
+  border-radius: 90px;
+  margin-bottom: 130px;
+}
+
+#chef_word {
+  padding: 80px 20px;
+}
+/* chef-section-end */
+/* customer-section-start */
+#customer {
+  padding: 30px;
+  border-radius: 20px;
+}
+#review {
+  margin-bottom: 130px;
+}
+.checked {
+  color: orange;
+}
+/* customer-section-end */
+/* contact-form-start */
+#floatingInput {
+  border-radius: 20px;
+}
+/* contact-form-end */
