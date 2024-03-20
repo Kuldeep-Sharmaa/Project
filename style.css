@@ -125,6 +125,7 @@ button#check {
 #items {
   border-radius: 40px;
   background-color: #faf8ef;
+  box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 #food_items {
   margin-bottom: 130px;
@@ -157,6 +158,7 @@ button#check {
 #customer {
   padding: 30px;
   border-radius: 20px;
+  box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 #review {
   margin-bottom: 130px;
@@ -189,7 +191,13 @@ footer ul li a {
   font-family: var(--heading-font);
   margin-bottom: 25px;
 }
-
+#sign_up {
+  color: #6bb99c;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #12202f;
+}
 #media ul > p,
 i {
   font-weight: bold;
