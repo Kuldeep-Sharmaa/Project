@@ -14,4 +14,7 @@
     border-radius: 0px;
     margin-top: 0px !important;
   }
+  #chef_word {
+    padding: 0px 10px;
+  }
 }
