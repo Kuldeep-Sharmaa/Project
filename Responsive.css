@@ -9,7 +9,7 @@
     padding: 0px 20px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
   .basic-nav .navbar {
     border-radius: 0px;
     margin-top: 0px !important;
